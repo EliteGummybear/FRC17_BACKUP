@@ -1,8 +1,6 @@
 #include "DriveWithController.h"
 #include "../Robot.h"
 
-asdfghjkliuy
-
 static std::shared_ptr<DriveTrain> getDriveTrain() {
 	return Robot::GetInstance()->getDriveTrain();
 }
